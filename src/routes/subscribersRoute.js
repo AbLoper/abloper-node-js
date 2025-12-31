@@ -1,14 +1,14 @@
 import express from 'express'
-const subscribersRouter = express.Router()
+const subscribersRoute = express.Router()
 
 import { createSubscriber } from '../controllers/subscribersController.js'
 
 
-subscribersRouter
+subscribersRoute
     .route('/')
     // .get()
     .post(createSubscriber)
 // .patch()
 // .delete()
 
-export { subscribersRouter }
+export { subscribersRoute }

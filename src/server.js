@@ -36,7 +36,7 @@ const startServer = async () => {
     console.log('✅ Database connected');
 
     app.listen(PORT, () => {
-      console.log(`🚀 Server running on http://localhost:${PORT}`);
+      console.log(`🚀 Server starting up on port: ${PORT}`);
       console.log(`⚙️ Environment: ${NODE_ENV}`);
     });
   } catch (error) {

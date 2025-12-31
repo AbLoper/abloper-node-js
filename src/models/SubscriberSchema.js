@@ -14,6 +14,6 @@ const subscriberSchema = new mongoose.Schema({
     },
 })
 
-const Subscriber = mongoose.model('Subscriber', subscriberSchema)
+const SubscriberSchema = mongoose.model('Subscriber', subscriberSchema)
 
-export default Subscriber   
+export default SubscriberSchema   
