@@ -7,7 +7,7 @@ const app = express();
 
 const corsOptions = {
   origin: [
-    "http://localhost:5173",
+    // "http://localhost:5173",
     // "https://godaddy.com",
     // "https://www.godaddy.com",
     "https://abloper.com",
